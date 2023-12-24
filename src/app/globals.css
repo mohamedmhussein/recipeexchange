@@ -1,4 +1,13 @@
-
+:root {
+  --primary-color: #ff5733;        /* Deep Orange */
+  --secondary-color: #228b22;      /* Forest Green */
+  --background-color: #fdf5e6;     /* Cream or Light Beige */
+  --accent-color-1: #800080;       /* Eggplant Purple */
+  --accent-color-2: #ffdb58;       /* Mustard Yellow */
+  --text-color: #333333;           /* Charcoal Gray */
+  --text-light-color: #ffffff;     /* White */
+  --optional-highlight: #ff6347;   /* Tomato Red */
+}
 
 * {
   box-sizing: border-box;
