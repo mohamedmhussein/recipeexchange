@@ -15,6 +15,10 @@ const Header = () => {
       link: "/recipes"
     },
     {
+      title: "Profile",
+      link: "/profile"
+    },
+    {
       title: "Categories",
       link: "/categories"
     }
