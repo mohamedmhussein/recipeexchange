@@ -10,24 +10,26 @@
 }
 
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: var(--background-color)
-}
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-image: url('/main_background.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  
 }
+
+/* .backgroundImage {
+  object-fit: cover;
+  z-index: -1;
+  position: absolute;
+} */
