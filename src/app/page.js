@@ -3,10 +3,11 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-
+    <div className={styles.container}>
+      <div className={styles.intro}>
+        <h1>Welcome to Recipe Exchange</h1>
+        <p>Discover and share delicious recipes with the community</p>
       </div>
-    </main>
+    </div>
   )
 }
