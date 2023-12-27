@@ -2,7 +2,8 @@
     all: unset;
     cursor: pointer;
     flex: 1;
-    font-weight: bold;
+    font-weight: 800;
+    font-size: 25px;
 }
 
 .links {
@@ -10,7 +11,7 @@
     align-items: center;
     gap: 25px;
     margin-left: auto;
-    font-weight: bold;
+    /* font-weight: bold; */
     cursor: pointer;
 }
 
@@ -20,12 +21,27 @@
     align-items: center;
     margin: 20px;
     padding: 20px;
-    background-color: var(--accent-color-2);
+    /* background-color: var(--accent-color-2) ; */
     color: var(--text-color);
+    
     
 }
 
 .link {
     text-decoration: none;
-    color: var(--text-color);
+    color: rgb(221, 221, 221);
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: 500;
+    transition: ease-out 0.4s;
+}
+
+.link:hover {
+    color: black;
+    background-color: rgb(221, 221, 221, 0.6);
+
 }
