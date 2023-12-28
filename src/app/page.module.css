@@ -1,3 +1,18 @@
 .container {
   margin: 20px;
 }
+
+.intro h1 {
+  font-size: 50px;
+}
+
+.intro p {
+  font-size: 25px;
+}
+
+.intro {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
