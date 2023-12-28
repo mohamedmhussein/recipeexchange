@@ -35,16 +35,53 @@
   background: rgba(255, 255, 255, 0.1);
   box-shadow: rgb(0, 0, 0, 0.6);
   border: 2px solid rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(10px); 
   transition: ease-out 0.5s;
 
 }
 
 .featuredTitle:hover {
-  background: rgb(222, 219, 219);
+  background-color: rgb(221, 221, 221, 0.6);
+  backdrop-filter: blur(10px);
 }
 
-.featured {
+.featuredContainer {
+  display: flex;
+  margin: 0 50px;
+  gap: 50px;
+}
+
+.imageContainer {
+  display: flex;
+  height: 400px;
+  position: relative;
+  flex: 1;
+  transition: ease-out 0.5s;
+}
+
+.imageContainer:hover {
+  scale: 1.05;
+}
+
+.imageContainer Image {
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
+
+.item {
+  flex: 1;
   display: flex;
   flex-direction: column;
+  gap: 50px;
+  text-justify: auto;
 }
+
+.item button {
+    background-color: black;
+    color: white;
+    width: 30%;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 15px;
+  }
