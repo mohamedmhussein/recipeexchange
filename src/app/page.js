@@ -9,8 +9,9 @@ export default function Home() {
         <p>Discover and share delicious recipes with the community</p>
         <button className={styles.button}>Browse featured recipes</button>
       </div>
+      <h1 className={styles.featuredTitle}>Featured Recipes</h1>
       <div className={styles.featured}>
-        <h1>Featured Recipes</h1>
+        
       </div>
     </div>
   )
