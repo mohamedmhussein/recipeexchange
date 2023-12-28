@@ -43,5 +43,6 @@
 .link:hover {
     color: black;
     background-color: rgb(221, 221, 221, 0.6);
+    backdrop-filter: blur(10px);
 
 }
