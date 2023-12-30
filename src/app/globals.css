@@ -21,10 +21,14 @@
   flex-direction: column;
   justify-content: space-between;
   background-image: url('/main_background.jpg');
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+
+   /* Full height */
+   height: 100%;
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 
   
 }

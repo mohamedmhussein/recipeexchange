@@ -50,6 +50,11 @@
   gap: 50px;
 }
 
+.featuredContainer:nth-child(2n) {
+  flex-direction: row-reverse;
+
+}
+
 .imageContainer {
   display: flex;
   height: 400px;
