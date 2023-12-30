@@ -14,22 +14,24 @@
   margin: 0;
 }
 
-
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place the background container behind other elements */
+  background-image: url('/main_background.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url('/main_background.jpg');
-
-   /* Full height */
-   height: 100%;
-   /* Create the parallax scrolling effect */
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-
   
 }
 
