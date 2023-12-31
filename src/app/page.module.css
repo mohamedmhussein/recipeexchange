@@ -29,10 +29,11 @@
 
 .featuredTitle {
   text-align: center;
-  margin: 5% 35%;
+  color: white;
+  margin: 5% 0%;
   padding: 10px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0);
   box-shadow: rgb(0, 0, 0, 0.6);
   border: 2px solid rgba(0, 0, 0, 0.2);
   transition: ease-out 0.5s;
@@ -42,12 +43,14 @@
 .featuredTitle:hover {
   background-color: rgb(221, 221, 221, 0.6);
   backdrop-filter: blur(10px);
+  color: black;
 }
 
 .featuredContainer {
   display: flex;
   margin: 0 50px;
   gap: 50px;
+  backdrop-filter: blur(10px);
 }
 
 .featuredContainer:nth-child(2n) {
@@ -89,4 +92,8 @@
     padding: 8px;
     border-radius: 20px;
     font-size: 15px;
+  }
+
+  .item p {
+    font-size: large;
   }
